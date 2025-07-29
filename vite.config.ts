@@ -12,6 +12,6 @@ export default defineConfig({
 		},
 	},
 	preview: {
-		allowedHosts: ['sovereign-docs-production.up.railway.app/'],
+		allowedHosts: ['sovereign-docs-production.up.railway.app'],
 	},
 })
