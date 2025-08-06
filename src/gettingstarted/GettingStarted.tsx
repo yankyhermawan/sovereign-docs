@@ -14,12 +14,14 @@ const GettingStarted = () => {
             title: 'Account Creation',
             description: [
                 {
-                    type: 'text',
+                    type: 'jsx',
                     content:[
-                        `To sign up for a Wuthering Nest account and get a bonus, 
-                        simply visit https://wutheringnest.com/auth/register
-                        fill out the registration form, 
-                        and make sure to enter the referral code car66355 in the "Referrals Code" field to receive a 10% bonus on your top-ups.`
+                        <span>
+                            To sign up for a Wuthering Nest account and get a bonus, simply visit
+                            <a className='underline' href='https://wutheringnest.com/auth/register' target='_blank'> Wuthering Nest </a>
+                            fill out the registration form, 
+                            and make sure to enter the referral code car66355 in the "Referrals Code" field to receive a 10% bonus on your top-ups.
+                        </span>
                     ]
                 }
             ]
@@ -28,13 +30,24 @@ const GettingStarted = () => {
             title: 'Download The Game',
             description: [
                 {
-                    type: 'text',
+                    type: 'jsx',
                     content: [
-                        `To download and access the game,
-                        head over to https://wutheringnest.com/download to get the game client.
-                        After you've downloaded and extracted the game files, remember that the password for extraction is @123123.`,
-                        `If you encounter any issues with downloading, extracting, patching, or starting the game,
-                        please visit the official Wuthering Nest Discord server for assistance: https://discord.gg/8uNJTbft.`
+                        <span>
+                            To download and access the game, head over to
+                            <a className='underline' href='https://wutheringnest.com/download' target='_blank'> here </a> to get the game client.
+                            After you've downloaded and extracted the game files, remember that the password for extraction is @123123.
+                            
+                        </span>
+                    ]
+                },
+                {
+                    type: 'jsx',
+                    content: [
+                        <span>
+                            If you encounter any issues with downloading, extracting, patching, or starting the game,
+                            please visit the official Wuthering Nest Discord server for assistance:
+                            <a className='underline' href='https://discord.gg/8uNJTbft' target='_blank'> Discord </a>
+                        </span>
                     ]
                 }
             ]
