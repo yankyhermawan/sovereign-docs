@@ -31,7 +31,7 @@ const Dashboard = () => {
 	return (
         <Canvas>
             <div className="flex flex-col gap-4">
-                <span className="text-4xl text-center">
+                <span className="text-base md:text-4xl text-center">
                     Ultimate Guide for Wuthering Nest
                 </span>
                 <span className="text-center">
